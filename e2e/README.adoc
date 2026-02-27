@@ -1,0 +1,23 @@
+**Workflow to run tests**
+
+## Command to run all tests
+
+mvn --f pom.xml clean verify -DheadlessUITests=true
+
+
+## Command to run individual tests
+
+mvn --f pom.xml clean verify -Dtest=BookingST
+
+
+
+## Parameters to pass
+.  DheadlessUITests = True/False -> if true tests will be triggered with browser in headless mode
+.  Dtest = test to run
+..  BookingST.java
+
+## Automation framework built with Playwright with Java, Maven and Junit
+
+## Surefire report and playwright trace is generated at the end of run in target folder
+
+## Navigate to trace.playwright.dev, drop zip presebt under target -> playwright-trace folder to look at the trace
