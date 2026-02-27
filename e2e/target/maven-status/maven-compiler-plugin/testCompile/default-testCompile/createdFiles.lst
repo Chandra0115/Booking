@@ -1,0 +1,4 @@
+booking/test/e2e/tests/BookingST.class
+booking/test/e2e/businessLibrary/BookingHelper.class
+booking/test/e2e/businessLibrary/PlaywrightBase.class
+booking/test/e2e/pages/BookingPage.class
